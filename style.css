@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+header {
+    display: inline-flex;
+    height: 100px;
+    width: 100%;
+}
+
+nav {
+    display: inline-flex;
+    height: 1779px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-right: 1px solid #434343;
+    background-color: #222224;
+}
+
+.company {
+    display: flex;
+    width: 192px;
+    padding-bottom: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-bottom: 1px solid #434343;
+}
+
+.Text {
+    text-transform: capitalize;
+    color: #989898;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.generalBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.general {
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 12px;
+    background-color: #FAE101;
+}
+
+.generalIcontext {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.generalLink {
+    color: #000000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.navLinks {
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.navLinks:hover {
+    width: 190px;
+    border-radius: 12px;
+    background-color: #FAE101;
+}
+
+.linki:hover {
+    color: black;
+}
+
+.iconText {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.acount {
+    display: flex;
+    width: 192px;
+    padding-bottom: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-bottom: 1px solid #434343;
+}
+
+.searchCONTAINER {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #434343;
+    
+}
+
+.searchContainer {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between; 
+    height: 70px;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+    display: flex;
+    padding: 7px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 416px;
+    border-radius: 8px 0px 0px 8px;
+    border-top: 1px solid #FAE101;
+    border-bottom: 1px solid #FAE101;
+    border-left: 1px solid #FAE101;
+}
+
+.input {
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.loop a{
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #FAE101;
+}
+
+.peopleBox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.name {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 64px 32px 280px;
+}
+
+.giftingContainer {
+    display: inline-flex;
+    padding: 19px 170px 19px 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #222224;
+}
+
+.giftingBox {
+    display: flex;
+    width: 336px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.giftPara {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.metus {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.grinchi {
+    width: 283px;
+    height: 269px;
+    border-radius: 50%;
+}
+
+.navigatorContainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.allbox {
+    display: flex;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 24px;
+    background-color: #FAE101;
+}
+
+.aLL {
+    color: #000000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.navBox {
+    display: flex;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 24px;
+    background-color: #222224;
+}
+
+.navBox:hover {
+    background-color: #FAE101;
+}
+
+.all {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.flashContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.flashBox {
+    display: flex;
+    width: 341px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+h5 {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.saleNow {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+h6 {
+    text-transform: capitalize;
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.endingBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.ending {
+    text-transform: capitalize;
+    color: #797979;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.timeBox {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.time {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #FAE101;
+}
+
+.number {
+    color: #000000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.rectangleS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.rectangle {
+    width: 4px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+}
+
+.cardBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.cards {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 12px;
+    width: 350px;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+    background-color: #222224;
+}
+
+.cardtextBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.stoleBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.starBox {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.starHover:hover  {
+    background-color: #FAE101;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.grinchGot {
+    color: #797979;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.poterGot {
+    width: 200px;
+    color: #797979;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.price {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.priceYellow {
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.priceGray {
+    color: #797979;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.buttonBox {
+    display: flex;
+    width: 100%;
+    margin-top: 36px;
+    height: 40px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #FAE101;
+}
+
+.buttonBox:hover  {
+    background-color: red;
+    border: 2px solid black;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.add {
+    color: #000000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.cardsS {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+    background-color: #222224;
+}
+
+.twoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.allContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+/* სიგანეები იმიტომ მაქვს მითითებული რო რესპონსიული გამხდარიყო */
+
+.themesCards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.cardSS {
+    display: flex;
+    padding: 16px;
+    height: 320px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+}
